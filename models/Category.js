@@ -19,7 +19,8 @@ Category.init(
     allowNull: false
       
     },
-  
+  },
+
     {
     sequelize,
     timestamps: false,
@@ -27,7 +28,7 @@ Category.init(
     underscored: true,
     modelName: 'category',
     }
-  }
+  
 );
 
 module.exports = Category;
